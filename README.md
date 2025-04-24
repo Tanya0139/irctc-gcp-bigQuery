@@ -44,7 +44,7 @@ This project simulates IRCTC-like streaming data, transforms it on the fly using
 ## 📡 Architecture
 
 ```mermaid
-graph TD;
+graph TD
   Python[Mock Data Generator] --> PubSub[Google Pub/Sub]
   PubSub --> Dataflow[Google Dataflow + Python UDF]
   Dataflow --> BigQuery[BigQuery Table: irctc_stream_tb]

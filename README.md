@@ -9,8 +9,6 @@ Simulated IRCTC data pipeline using Python, Google Pub/Sub, Dataflow, and BigQue
 **BigQuery Table Preview**  
 ![BigQuery Preview](https://github.com/Tanya0139/irctc-gcp-bigQuery/blob/main/reference-images/bigquery-preview.png)
 
-**Pipeline Architecture Diagram**  
-![Pipeline Diagram](/mnt/data/3776be51-d157-4ef2-a163-afeb2fc5da2e.png)
 
 **Cloud Storage Bucket**  
 ![Bucket](https://github.com/Tanya0139/irctc-gcp-bigQuery/blob/main/reference-images/bucke-details.png)

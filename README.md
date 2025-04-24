@@ -45,11 +45,10 @@ This project simulates IRCTC-like streaming data, transforms it on the fly using
 
 ```mermaid
 graph TD
-  Source["NYC Taxi Dataset (CSV/Parquet)"] --> ADF[Azure Data Factory]
-  ADF --> Bronze[Bronze Layer - Raw Data]
-  Bronze --> Silver[Silver Layer - Cleaned Data]
-  Silver --> Gold[Gold Layer - Aggregated Data]
-  Gold --> PowerBI[Power BI Dashboard]
+  Python[Mock Data Generator] --> PubSub[Google Pub/Sub]
+  PubSub --> Dataflow[Google Dataflow + Python UDF]
+  Dataflow --> BigQuery[BigQuery Table: irctc_stream_tb]
+  BigQuery --> PowerBI[Power BI Dashboard]
 ```
 
 ![BigQuery Preview](https://github.com/Tanya0139/irctc-gcp-bigQuery/blob/main/reference-images/archt.png)

@@ -51,6 +51,8 @@ graph TD;
   BigQuery --> PowerBI[Power BI Dashboard]
 ```
 
+![BigQuery Preview](https://github.com/Tanya0139/irctc-gcp-bigQuery/blob/main/reference-images/archt.png)
+
 ---
 
 ## 🔧 Setup Steps

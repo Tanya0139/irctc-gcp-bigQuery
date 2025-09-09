@@ -7,6 +7,11 @@ Simulated IRCTC data pipeline using Python, Google Pub/Sub, Dataflow, and BigQue
 ## 🖼️ Gallery – Quick Preview
 
 **Dashboard**  
+**Looker Dashboard**
+https://lookerstudio.google.com/reporting/4a2d2b64-7764-47d6-8c7e-a2c41a8ded99
+<img width="759" height="571" alt="Screenshot 2025-09-09 at 3 42 45 PM" src="https://github.com/user-attachments/assets/ad5061cd-a31a-4e1c-a4e9-ff75778ca16e" />
+
+**Power BI Dashboard**
 <img src="https://github.com/Tanya0139/tanya0139/blob/main/assets_tanya/gcp_irctc.png" alt="IRCTC GCP BigQuery">
 
 **BigQuery Table Preview**  
